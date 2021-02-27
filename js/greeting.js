@@ -1,6 +1,10 @@
 // Get the hour
 const today = new Date();
-const hour = today.getHours();
+const hour = today.getHours() - 5;
+
+if (hour == 0) {
+  hour = 12;
+}
 
 // Here you can change your name
 const name = ' Niels';
