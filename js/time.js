@@ -29,6 +29,9 @@ function displayClock() {
     ampm = hh >= 12 ? ' pm' : ' am';
     hh = hh % 12;
     hh = hh ? hh : 12; //show mod 0 as 12
+    if (hh == 0) {
+      hh = 12;
+    } 
   }
 
   document.getElementById('hour').innerText = hh;
