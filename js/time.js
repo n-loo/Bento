@@ -31,7 +31,19 @@ function displayClock() {
     hh = hh ? hh : 12; //show mod 0 as 12
     if (hh == 0) {
       hh = 12;
-    } 
+    }
+    if (hh == -1) {
+      hh = 11;
+    }
+    if (hh == -2) {
+      hh = 10;
+    }
+    if (hh == -3) {
+      hh = 9;
+    }
+    if (hh == -4) {
+      hh = 8;
+    }
   }
 
   document.getElementById('hour').innerText = hh;
