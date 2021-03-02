@@ -1,6 +1,6 @@
 // Get the hour
 const today = new Date();
-const hour = today.getHours() - 5;
+const hour = today.getHours(); -5
 
 if (hour == 0) {
   hour = 12;
