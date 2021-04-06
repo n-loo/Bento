@@ -7,7 +7,7 @@
 
 // This file is only for development 
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 // Responsive
 $bp-largest: 75em;
 $bp-large: 68.75em;
@@ -28,7 +28,8 @@ $bp-smallest: 31.25em;
   --sbg: #e4e6e6;
   --fg: #3a3a3a;
 
-  --imgbg: url(https://raw.githubusercontent.com/n-loo/Bento/master/img/forest-blurred.png);
+  // --imgbg: url(https://raw.githubusercontent.com/n-loo/Bento/master/img/forest-blurred.png);
+  --imgbg: url('../img/currentblur.jpg');
 
   --imgcol: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7));
 
@@ -45,14 +46,15 @@ $bp-smallest: 31.25em;
   --sbg: #2c2d31;
   --fg: #d8dee9;
 
-  --imgcol: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  --imgcol: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  // font-family: 'Open Sans', sans-serif;
+  font-family: 'Fira Code Retina';
   font-size: 13.5px;
 
   transition: 0.2s ease-in-out;
