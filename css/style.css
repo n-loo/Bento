@@ -54,6 +54,14 @@
   ); /* Filter color */
 }
 
+/*  makes scrollbar nord themed */
+::-webkit-scrollbar-thumb {
+  background-color: #3d4251 !important;
+}
+::-webkit-scrollbar {
+  background-color: #2e3440e3 !important
+}
+
 /* S T Y L E S */
 
 * {
