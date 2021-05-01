@@ -6,3 +6,5 @@ I've added some customizations to fit my setup better and currently it is made t
 
 Here is a preview!
 ![image](preview.png)
+
+This startpage requires the [open sans font](https://fonts.google.com/specimen/Fira+Sans).
