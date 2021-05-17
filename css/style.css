@@ -28,23 +28,23 @@
     /* rgba(255, 255, 255, 0.7), */
     /* rgba(255, 255, 255, 0.7) */
   /* ); Filter color */
-  --accent: #8EC3D1; /* Hover color #4b8ec4 */
-  --bg: #19171a; /* Background color */
-  --sbg: #2e3440e3; /* Cards color #201e2160*/
-  --fg: #d8dee9; /* Foreground color */
-  --sfg: #3a3a3a; /* Secondary Foreground color */
-  --imgcol: linear-gradient(
-    rgba(255, 255, 255, 0.05),
-    rgba(255, 255, 255, 0.05)
-  );
-}
+    --accent: #D4BE98; /* Hover color #4b8ec4 nord: #8EC3D1*/
+    --bg: #19171a; /* Background color */
+    --sbg: #3C3836e3; /* Cards color #201e2160  nord: #2e3440e3*/
+    --fg: #D4BE98; /* Foreground color nord: #d8dee9*/
+    --sfg: #3a3a3a; /* Secondary Foreground color */
+    --imgcol: linear-gradient(
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05)
+    ); /* Filter color */
+  }
 
 /* Dark theme  */
 .darktheme {
-  --accent: #8EC3D1; /* Hover color #4b8ec4 */
+  --accent: #D4BE98; /* Hover color #4b8ec4 nord: #8EC3D1*/
   --bg: #19171a; /* Background color */
-  --sbg: #2e3440e3; /* Cards color #201e2160*/
-  --fg: #d8dee9; /* Foreground color */
+  --sbg: #3C3836e3; /* Cards color #201e2160  nord: #2e3440e3*/
+  --fg: #D4BE98; /* Foreground color nord: #d8dee9*/
   --sfg: #3a3a3a; /* Secondary Foreground color */
   --imgcol: linear-gradient(
     rgba(255, 255, 255, 0.05),
@@ -52,9 +52,9 @@
   ); /* Filter color */
 }
 
-/*  makes scrollbar nord themed */
+/*  makes scrollbar themed */
 ::-webkit-scrollbar-thumb {
-  background-color: #3d4251 !important;
+  background-color: var(--fg) !important;
 }
 ::-webkit-scrollbar {
   background-color: var(--sbg) !important
