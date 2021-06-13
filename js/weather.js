@@ -24,7 +24,7 @@ function setPosition(position) {
   // let latitude = 40.716270; // new york city
   // let longitude = -73.987590;
 
-  let latitude = 41.2939386;
+  let latitude = 41.2939386; // current location is Oberlin 
   let longitude = -82.2173786;
 
   getWeather(latitude, longitude);
