@@ -7,8 +7,8 @@ if (hour == 0) {
 }
 
 // Here you can change your name
-const name = ' Niels';
-const name1 = ' Niels';
+const name = '';
+const name1 = '';
 
 // Here you can change your greetings
 const gree1 = 'Go to Sleep!  ';
