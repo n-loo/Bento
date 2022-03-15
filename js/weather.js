@@ -5,7 +5,7 @@ const descElement = document.querySelector('.temperature-description p');
 // App data
 const weather = {};
 weather.temperature = {
-  unit: 'celsius',
+  unit: 'fahrenheit',
 };
 
 // Change to 'F' for Fahrenheit
@@ -42,9 +42,9 @@ function getWeather(latitude, longitude) {
       return data;
     })
     .then(function (data) {
-      let celsius = Math.floor(data.main.temp - KELVIN);
+      let fahrenheit = Math.floor((data.main.temp - KELVIN)*9/5+32);
       weather.temperature.value =
-        tempUnit == 'C' ? celsius : (celsius * 9) / 5 + 32;
+        tempUnit == 'C' ? fahrenheit : fahrenheit;
       weather.description = data.weather[0].description;
       weather.iconId = data.weather[0].icon;
     })
