@@ -28,10 +28,10 @@
     /* rgba(255, 255, 255, 0.7), */
     /* rgba(255, 255, 255, 0.7) */
   /* ); Filter color */
-    --accent: #D4BE98; /* Hover color #4b8ec4 nord: #8EC3D1*/
+    --accent: #efeee3; /* #D4BE98; /* Hover color #4b8ec4 nord: #8EC3D1*/
     --bg: #19171a; /* Background color */
     --sbg: #3C3836e3; /* Cards color #201e2160  nord: #2e3440e3*/
-    --fg: #D4BE98; /* Foreground color nord: #d8dee9*/
+    --fg: #efeee3; /* #D4BE98; /* Foreground color nord: #d8dee9*/
     --sfg: #3a3a3a; /* Secondary Foreground color */
     --imgcol: linear-gradient(
       rgba(255, 255, 255, 0.05),
@@ -41,10 +41,10 @@
 
 /* Dark theme  */
 .darktheme {
-  --accent: #D4BE98; /* Hover color #4b8ec4 nord: #8EC3D1*/
+  --accent: #efeee3; /* #D4BE98; /* Hover color #4b8ec4 nord: #8EC3D1*/
   --bg: #19171a; /* Background color */
   --sbg: #3C3836e3; /* Cards color #201e2160  nord: #2e3440e3*/
-  --fg: #D4BE98; /* Foreground color nord: #d8dee9*/
+  --fg: #efeee3; /* #D4BE98; /* Foreground color nord: #d8dee9*/
   --sfg: #3a3a3a; /* Secondary Foreground color */
   --imgcol: linear-gradient(
     rgba(255, 255, 255, 0.05),
