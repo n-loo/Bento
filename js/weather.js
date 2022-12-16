@@ -24,11 +24,11 @@ function setPosition(position) {
   // let latitude = 40.716270; // new york city
   // let longitude = -73.987590;
 
-  // let latitude = 41.2939386; // Oberlin, OH 
-  // let longitude = -82.2173786;
+  let latitude = 41.2939386; // Oberlin, OH 
+  let longitude = -82.2173786;
 
-  let latitude = 43.130745; // Rochester, NY
-  let longitude = -77.635386;
+  // let latitude = 43.130745; // Rochester, NY
+  // let longitude = -77.635386;
 
   getWeather(latitude, longitude);
 }

@@ -23,29 +23,30 @@
     to make the filter to your own */
 
   /* --imgbg: url(https://raw.githubusercontent.com/n-loo/Bento/master/img/forest-blurred.png); */
-  --imgbg: url('../img/oldblur.jpg');
+  --imgbg: url('../img/currentblur.jpg');
   /* --imgcol: linear-gradient( */
     /* rgba(255, 255, 255, 0.7), */
     /* rgba(255, 255, 255, 0.7) */
   /* ); Filter color */
-    --accent: #c9b1c5; /* #D4BE98; /* Hover color #4b8ec4 nord: #8EC3D1*/
-    --bg: #19171a; /* Background color */
-    --sbg: #353342; /* #3C3836e3; /* Cards color #201e2160  nord: #2e3440e3*/
-    --fg: #fbe8f4; /* #D4BE98; /* Foreground color nord: #d8dee9*/
-    --sfg: #3a3a3a; /* Secondary Foreground color */
-    --imgcol: linear-gradient(
-      rgba(255, 255, 255, 0.05),
-      rgba(255, 255, 255, 0.05)
-    ); /* Filter color */
+  --accent: #3b3947; /* #D4BE98; /* Hover color #4b8ec4 nord: #8EC3D1*/
+  --bg: #19171a; /* Background color */
+  --sbg: #eee8ec; /* #353342; /* #3C3836e3; /* Cards color #201e2160  nord: #2e3440e3*/
+  --fg: #3d3740;/*#fbe8f4; /* #D4BE98; /* Foreground color nord: #d8dee9*/
+  --sfg: #eee8ec; /* #353342; /* #3a3a3a; /* Secondary Foreground color */
+  --imgcol: linear-gradient(
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.05)
+  );  /* Filter color */
   }
 
 /* Dark theme  */
 .darktheme {
-  --accent: #c9b1c5; /* #D4BE98; /* Hover color #4b8ec4 nord: #8EC3D1*/
+  --imgbg: url('../img/oldblur.jpg');
+  --accent: #3b3947; /* #D4BE98; /* Hover color #4b8ec4 nord: #8EC3D1*/
   --bg: #19171a; /* Background color */
-  --sbg: #3C3836e3; /* Cards color #201e2160  nord: #2e3440e3*/
-  --fg: #fbe8f4; /* #D4BE98; /* Foreground color nord: #d8dee9*/
-  --sfg:  #3a3a3a; /* Secondary Foreground color */
+  --sbg: #eee8ec; /* #353342; /* #3C3836e3; /* Cards color #201e2160  nord: #2e3440e3*/
+  --fg: #3d3740;/*#fbe8f4; /* #D4BE98; /* Foreground color nord: #d8dee9*/
+  --sfg: #eee8ec; /* #353342; /* #3a3a3a; /* Secondary Foreground color */
   --imgcol: linear-gradient(
     rgba(255, 255, 255, 0.05),
     rgba(255, 255, 255, 0.05)
