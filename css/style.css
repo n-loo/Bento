@@ -41,7 +41,8 @@
 
 /* Dark theme  */
 .darktheme {
-  --imgbg: url('../img/currentblur.jpg');
+  /* --imgbg: url('../img/landscapewall.jpg'); */
+  --imbg: none;
   --accent: #e8e3ed; /* #D4BE98; /* Hover color #4b8ec4 nord: #8EC3D1*/
   --bg: #c9c4cfc6; /* Background color */
   --sbg: #c9c4cfc6; /* Cards color #201e2160  nord: #2e3440e3*/
